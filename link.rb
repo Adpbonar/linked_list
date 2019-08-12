@@ -63,11 +63,3 @@ puts "-------"
 revlist = reverse_list(node3)
 
 print_values(revlist)
-
-
-
-# node1 = LinkedListNode.new(102)
-# node2 = LinkedListNode.new(100, node1)
-# node3 = LinkedListNode.new(99)
-# node3.next_node = node2
-# print_values(node3)
