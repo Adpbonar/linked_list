@@ -20,12 +20,8 @@ class Stack
      @data = new_node
   end
 
-  # Pop an item off the stack.
-  # Remove the last item that was pushed onto the
-  # stack and return the value to the user
   def pop
     unless list == nil
-      x = @data
       @data = data.next_node
       return list.value
     end
